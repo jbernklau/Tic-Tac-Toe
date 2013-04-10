@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+/*HTML Tags*/
+body{
+	text-align:center;
+	}
+
+canvas{
+	position:relative;
+	}
+
+
+html {
+        background: url(../images/bg.png) no-repeat center center fixed;
+        background-size: auto;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+		background-color:#FFF;
+	 }
+
+/*ID Tags*/
+#spacer{
+	width:auto;
+	height:4em;
+	}
+	
+#container {
+	width: 300px;
+	margin: 0 auto;
+	
+}
+
+/*Class Tags*/
+.wrapper{
+	width:auto;
+	height:auto;
+	}
+	

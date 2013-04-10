@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="../Tic-Tac-Toe/css/index.css" /> <!--This is the code used to link the local index css file to the index html page.-->
+<title>Tic-Tac-Toe</title>
+<script type="text/javascript" src="../Tic-Tac-Toe/js/index.js"></script>
+
+</head>
+
+<body>
+
+<div id="spacer"></div> <!--Spacer div makes room at the top of the page for a "header" and allows for the text in the background image to be seen-->
+
+	<div class ="wrapper"> <!--The wrapper div contains nine html5 canvases, each canvas is a box for the game-->
+		<canvas id = "canvas1" width="100" height="100" style="border:1px solid black" onclick="clicked(1)"></canvas>
+		<canvas id = "canvas2" width="100" height="100" style="border:1px solid black" onclick="clicked(2)"></canvas>
+		<canvas id = "canvas3" width="100" height="100" style="border:1px solid black" onclick="clicked(3)"></canvas><br/>
+		<canvas id = "canvas4" width="100" height="100" style="border:1px solid black" onclick="clicked(4)"></canvas>
+		<canvas id = "canvas5" width="100" height="100" style="border:1px solid black" onclick="clicked(5)"></canvas>
+		<canvas id = "canvas6" width="100" height="100" style="border:1px solid black" onclick="clicked(6)"></canvas><br/>
+		<canvas id = "canvas7" width="100" height="100" style="border:1px solid black" onclick="clicked(7)"></canvas>
+		<canvas id = "canvas8" width="100" height="100" style="border:1px solid black" onclick="clicked(8)"></canvas>
+		<canvas id = "canvas9" width="100" height="100" style="border:1px solid black" onclick="clicked(9)"></canvas>
+	</div>
+    
+  <div id="container"> <!--The scoreboard form is found below-->
+        <h1>Scoreboard</h1>
+        <form>
+        X's Win Total: <input type="text"  id="xwins" name="XWins" readonly value="" size="2"/><br />
+        O's Win Total: <input type="text"  id="owins" name="OWins" readonly value="" size="2"/><br />
+        The Tie Total: <input type="text"  id="ties" name="Ties" readonly value="" size="2"/><br />
+        </form>
+  </div>
+  
+</body>
+
+</html>
+

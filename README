@@ -1,0 +1,12 @@
+HTML5 Tic-Tac-Toe game done in ear1y 2012. Included below is my analysis of the project.
+
+Analysis - 2/17/12
+Having had no prior experience with HTML5, much less the canvas, I decided to jump right into this project while
+challenging myself to a new practice. Because I believe that HTML5 is a viable option for the future of website and
+browser based internet, I decided that now was a good time to start.
+The canvas was really quite easy to learn and all of my HTML and CSS coding went amazingly well.
+Since the HTML5 canvas works similar to divisions, I did not need to create CSS styles for the nine divisions of
+Tic-Tac-Toe squares. This cut down on the number of lines of CSS utilized.
+The JavaScript overall ended up well, but was the most difficult. I found that the functions were fairly easy to
+distinguish, but difficult to write. The only error that is causing the program to run incorrectly is that in line
+36. form(); only accepts inputs for xWins. 
